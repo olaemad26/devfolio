@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home1{
+    background-color: rgba(0, 0, 0, 0.7);
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.background{
+    background-image: url(../images/intro-bg.jpg);
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center ;
+}
+.caption1 h2{
+    font-size: 70;
+    font-weight: bold;
+}
+.navbar-brand{
+    font-size: 27;
+    font-weight: bold;
+}
+.ma{
+    margin-left: auto;
+    margin-right: 0;
+}
+.line{
+    width: 100;
+    height: 3;
+}
+.face{
+    border:#0078ff 3px solid ;
+    width: 45;
+    height: 45;
+    font-size: x-large;
+    padding-top: 5;
+    padding-left: 5;
+    transition: all 1s;
+}
+.face:hover{
+    background-color: #0078ff;
+    border:white 3px solid ;
+    color: white;
+}
+.hover{
+    color: black;
+    transition: all 1s;
+}
+.hover:hover{
+    color: #0078ff;
+}
+.backo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: 100% 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 1;
+}
+
+.line2{
+    width: 50;
+    height: 6;
+    /* margin: auto; */
+}
+.card-body{
+    padding-bottom: 30;
+}
+.rect{
+    position:absolute;
+    top: 49%;
+    left: 40%;
+    font-size: 13;
+}
+.card-footer{
+    padding-top: 5;
+    padding-left: 20;
+    padding-bottom: 1;
+}
+/* ----------------section------------------------------ */
+.background2{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: 100% 100%;
+    /* height: 110%; */
+    background-attachment: fixed;
+    margin-top: 0;
+}
+.zz{
+    background-color:rgba(0, 120, 255, 0.7)
+}
+/* ------------------------------------------------------------ */
+.carousel-indicators button{
+    width: 2;
+    height: 2;
+}
+.carousel-item{
+    transform: translate(50,200);
+    -webkit-transform: translate(50,200);
+    -moz-transform: translate(50,200);
+    -ms-transform: translate(50,200);
+    -o-transform: translate(50,200);
+}
+.carousel-inner{
+    padding-left: 400;
+    padding-top: 110;
+    margin-top: 100;
+}
+/* ------------------------cards--------------------------------- */
+
+.card-body .cards p{
+    font-size: 12;
+}
+.card1 img{
+    transition: all 1s;
+}
+.card1:hover img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+/* ---------------------background3--------------------------- */
+.background3{
+    background-image: url(../images/counters-bg.jpg);
+    background-attachment: fixed;
+    height: 70%;
+}
+.content .container .row .col-lg-3 i{
+    font-size: 30;
+    border: #cde1f8 8px solid;
+   
+    /* border-radius: 50% 50%; */
+
+}
+.content{
+    background-color: rgba(0, 120, 255, 0.7);
+}
+.content .container .row{
+    padding-top: 120;
+}
+/* ---------------------------------service-------------------------------- */
+.card-image {
+    padding: 27 27;
+    border: solid 7px #0078ff;
+    border-radius: 50% 50%;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.card:hover .card-image{
+    background-color: #0078ff ;
+    border: solid 7px #cde1f8;
+    color: white;
+    border-radius: 50% 50%;
+    -webkit-border-radius: 50% 50%;
+    -moz-border-radius: 50% 50%;
+    -ms-border-radius: 50% 50%;
+    -o-border-radius: 50% 50%;
+}
+.zzz{
+    border-radius: 20% 20%;
+    -webkit-border-radius: 20% 20%;
+    -moz-border-radius: 20% 20%;
+    -ms-border-radius: 20% 20%;
+    -o-border-radius: 20% 20%;
+}
+.card{
+    border: white solid 1px;
+    border-radius: 5% 5%;
+    -webkit-border-radius: 5% 5%;
+    -moz-border-radius: 5% 5%;
+    -ms-border-radius: 5% 5%;
+    -o-border-radius: 5% 5%;
+}
+/* -------about------------------------------------------------------------------------- */
+.about-me h2{
+    position: relative;
+    padding-bottom: 15;
+    /* font-size: 30; */
+}
+.about-me h2::after{
+    content: "";
+    background-color:#0078ff ;
+    position: absolute;
+    width: 20%;
+    height: 3;
+    bottom: 0;
+    left: 0;
+}
+.col-md-6 p span{
+    font-weight: bold;
+}
+.progress{
+    background-color:#cde1f8 ;
+}
+/* ==================================================================== */
+
+h3::after{
+    content: "";
+    animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+/* @keyframes move{
+    0%{content: "/"}
+    2%{content: "F/"}
+    4%{content: "Fr/"}
+    6%{content: "Fre/"}
+    8%{content: "Free/"}
+    10%{content: "Freel/"}
+    12%{content: "Freela/"}
+    14%{content: "Freelan/"}
+    16%{content: "Freelan/"}
+    18%{content: "Freelan/"}
+    20%{content: "Freelanc/"}
+    22%{content: "Freelance/"}
+    24%{content: "Freelancer/"}
+    26%{content: "/"}
+    28%{content: "p/"}
+    30%{content: "ph/"}
+    32%{content: "pho/"}
+    34%{content: "phot/"}
+    36%{content: "photo/"}
+    38%{content: "photog/"}
+    40%{content: "photogr/"}
+    42%{content: "photogra/"}
+    44%{content: "photograp/"}
+    46%{content: "photograph/"}
+    48%{content: "photographe/"}
+    50%{content: "photographer/"}
+    52%{content: "photographe/"}
+    54%{content: "photograph/"}
+    56%{content: "photograp/"}
+    58%{content: "photogra/"}
+    60%{content: "photogr/"}
+    62%{content: "photog/"}
+    64%{content: "photo/"}
+    66%{content: "phot/"}
+    68%{content: "pho/"}
+    70%{content: "ph/"}
+    72%{content: "p/"}
+    74%{content: "/"}
+    74%{content: "D/"}
+    76%{content: "De/"}
+    78%{content: "Dev/"}
+    80%{content: "Deve/"}
+    82%{content: "Devel/"}
+    84%{content: "Develo/"}
+    86%{content: "Develop/"}
+    88%{content: "Develope/"}
+    90%{content: "Developer/"}
+    92%{content: "Des/"}
+    94%{content: "Desi/"}
+    96%{content: "Desig/"}
+    98%{content: "Design/"}
+    100%{content: "Designer/"}
+} */
+html{
+    scroll-behavior: smooth;
+}
+/* ==================carosal======================= */
+.carousel-inner{
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+.carousel-indicators button{
+    width: 12 !important ;
+    height: 12 !important;
+    border-radius: 50% 50%;
+    -webkit-border-radius: 50% 50%;
+    -moz-border-radius: 50% 50%;
+    -ms-border-radius: 50% 50%;
+    -o-border-radius: 50% 50%;
+}
+.prag{
+    padding: 0 20rem;
+}
+footer .card{
+    border-radius:0% 0% ;
+    -webkit-border-radius:0% 0% ;
+    -moz-border-radius:0% 0% ;
+    -ms-border-radius:0% 0% ;
+    -o-border-radius:0% 0% ;
+}
+@media screen and (max-width:570px)
+{
+    .caption1 h2{
+        font-size: 45;
+        /* font-weight: lighter; */
+        text-align: center;
+    }
+    .prag{
+        padding: 0 4rem;
+    }
+}

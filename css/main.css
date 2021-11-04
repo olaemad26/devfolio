@@ -1,0 +1,36 @@
+.bgo{
+    background-color:#111111 ;
+}
+/* .home{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    height: 100%;
+    z-index: 5;
+}
+.background{
+    background-image: url(../image/intro-bg.jpg);
+    height: 100%;
+    background-color: rosybrown;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+} */
+.os{
+    
+    width: 90%;
+}
+.navbar-light .navbar-nav .nav-link.disabled {
+    background-color: aqua;
+}
+.ola{
+    
+    width: 100%;
+}
+
+/* .oo{
+    background-color: aqua;
+    margin-right: 0;;
+    margin-left: auto;
+} */
